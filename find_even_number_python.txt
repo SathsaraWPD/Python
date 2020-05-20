@@ -1,0 +1,17 @@
+def find_even_number():
+    x = int(input("Enter the Start value :"))
+    y = int(input("Enter the End vale :"))
+
+    even = 0
+    odd = 0
+    
+    for i in range(x, y, 1):
+        if i % 2 == 0:
+            even = even + 1
+        else:
+           odd = odd + 1
+            
+    print(even)
+    print(odd)
+    
+find_even_number()
